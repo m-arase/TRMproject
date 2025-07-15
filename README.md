@@ -26,13 +26,13 @@ The code was written in R and is compatible with the provided datasets.
 
 ## Data Availability
 Raw sequencing data: 
-Bulk RNA-seq RUNX2 BHLHE40 Knockdown: GSE300848
-Bulk RNA-seq RUNX2 BHLHE40 Overexpression: GSE275362
-Bulk RNA-seq HLA positive negative TRM: GSE300850
-Colon, Lymphnode, Blood TCR (scRNA-seq): GSE301689
-CD103+ CD4 T cells scRNA-seq: GSE281509
-Colon CD4 T cell CITE-seq: GSE281504
-Colon CD4 T cell scMultiome: GSE280714
+Bulk RNA-seq RUNX2 BHLHE40 Knockdown: GSE300848  
+Bulk RNA-seq RUNX2 BHLHE40 Overexpression: GSE275362  
+Bulk RNA-seq HLA positive negative TRM: GSE300850  
+Colon, Lymphnode, Blood TCR (scRNA-seq): GSE301689  
+CD103+ CD4 T cells scRNA-seq: GSE281509  
+Colon CD4 T cell CITE-seq: GSE281504  
+Colon CD4 T cell scMultiome: GSE280714  
 
 ## Citation
 
