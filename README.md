@@ -19,7 +19,7 @@ The code was written in R and is compatible with the provided datasets.
   - FigureS2.R
   - FigureS3.R
   - FigureS4.R
-  - 
+    
 -LISENCE
 
 -README.md
