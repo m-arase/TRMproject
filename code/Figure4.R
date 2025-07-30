@@ -388,7 +388,7 @@ df[is.na(df)] <- 0
 
 write.csv(df, file = "shared_clone.csv")
 head(uninflamed)
-uninflamed$annotation <- "Cycling T"
+uninflamed$annotation <- "Prolifrating T"
 uninflamed$annotation[uninflamed$RNA_snn_res.1 == "0"] <- "TRM_2"
 uninflamed$annotation[uninflamed$RNA_snn_res.1 == "1"] <- "TEM_1"
 uninflamed$annotation[uninflamed$RNA_snn_res.1 == "2"] <- "eTreg2"
@@ -404,7 +404,7 @@ uninflamed$annotation[uninflamed$RNA_snn_res.1 == "11"] <- "TEM_2"
 uninflamed$annotation[uninflamed$RNA_snn_res.1 == "12"] <- "naive Treg"
 
 head(inflamed)
-inflamed$annotation <- "Cycling T"
+inflamed$annotation <- "Prolifrating T"
 inflamed$annotation[inflamed$RNA_snn_res.1.2 == "0"] <- "Tfh_1_1"
 inflamed$annotation[inflamed$RNA_snn_res.1.2 == "1"] <- "TRM_1"
 inflamed$annotation[inflamed$RNA_snn_res.1.2 == "2"] <- "eTreg_1"
@@ -422,7 +422,7 @@ inflamed$annotation[inflamed$RNA_snn_res.1.2 == "13"] <- "eTreg2_2"
 DimPlot(inflamed, reduction = "inf_harmony.umap", group.by = "annotation", label = T)
 
 head(Lymphnode)
-Lymphnode$annotation <- "Cycling T"
+Lymphnode$annotation <- "Prolifrating T"
 Lymphnode$annotation[Lymphnode$RNA_snn_res.0.6 == "0"] <- "Tfh_1"
 Lymphnode$annotation[Lymphnode$RNA_snn_res.0.6 == "1"] <- "naive Treg"
 Lymphnode$annotation[Lymphnode$RNA_snn_res.0.6 == "2"] <- "Tfh_2"
@@ -433,7 +433,7 @@ Lymphnode$annotation[Lymphnode$RNA_snn_res.0.6 == "6"] <- "Teff_Th1"
 Lymphnode$annotation[Lymphnode$RNA_snn_res.0.6 == "7"] <- "Unannotated"
 Lymphnode$annotation[Lymphnode$RNA_snn_res.0.6 == "8"] <- "Teff_Th17"
 
-PBMC$annotation <- "Cycling T"
+PBMC$annotation <- "Prolifrating T"
 PBMC$annotation[PBMC$RNA_snn_res.0.5 == "0"] <- "naive T"
 PBMC$annotation[PBMC$RNA_snn_res.0.5 == "1"] <- "TEM_1"
 PBMC$annotation[PBMC$RNA_snn_res.0.5 == "2"] <- "Unannotated_1"
