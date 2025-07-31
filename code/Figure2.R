@@ -10,6 +10,19 @@ library(harmony)
 library(SingleCellExperiment)
 set.seed(1234)
 
+# CD24 : CD7
+# CD27 : CD8
+# Hy189 : CD9
+# Hy253 : CD10
+# Hy259 : CD11
+# Hy268 : CD12
+# CK206 : Ctrl4
+# CK221 : Ctrl5
+# CK228 : Ctrl6
+# CK231 : Ctrl7
+# CK238 : Ctrl8
+# CK242 : Ctrl9
+
 LPhash1 <- readRDS(file = '/Volumes/BUFFALOHDD/scRNAseq/20220215_CD103_hashtag/20220217_Analysis_Demultiplexing/LPhashbeforeQC.rds')
 LPhash2 <- readRDS(file = '/Volumes/BUFFALOHDD/scRNAseq/20220324_CD103_hashtag/20220324_Analysis/LPhashbeforeQC.rds')
 
