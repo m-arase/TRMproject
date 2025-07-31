@@ -8,6 +8,13 @@ library(ggrepel)
 library(patchwork)
 set.seed(1234)
 
+# CD31 : CD1
+# Hy350 : CD2
+# Hy392 : CD3
+# CK265 : Ctrl1
+# CK278 : Ctrl2
+# CK282 : Ctrl3
+
 CD31 <- Read10X(data.dir ="/Users/sumitaninaoki/bioinformatics/CD/data/cellranger_v6/CD31/filtered_feature_bc_matrix")
 Hy350 <- Read10X(data.dir ="/Users/sumitaninaoki/bioinformatics/CD/data/cellranger_v6/Hy350/filtered_feature_bc_matrix")
 CK265 <- Read10X(data.dir ="/Users/sumitaninaoki/bioinformatics/CD/data/cellranger_v6/CK265/filtered_feature_bc_matrix")
