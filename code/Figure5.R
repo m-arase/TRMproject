@@ -12,6 +12,13 @@ library(BSgenome.Hsapiens.UCSC.hg38)
 
 set.seed(1234)
 
+# CD31 : CD1
+# Hy350 : CD2
+# Hy392 : CD3
+# CK265 : Ctrl1
+# CK278 : Ctrl2
+# CK282 : Ctrl3
+
 counts <- Read10X_h5("/Volumes/BUFFALOHDD/MultiomeAnalysis/20230703_Multiome6sample/CD3CK3/outs/filtered_feature_bc_matrix.h5")
 fragpath <- "/Volumes/BUFFALOHDD/MultiomeAnalysis/20230703_Multiome6sample/CD3CK3/outs/atac_fragments.tsv.gz"
 
