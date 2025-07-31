@@ -8,6 +8,13 @@ library(ggraph)
 library(UpSetR)
 set.seed(1234)
 
+# CD31 : CD1
+# Hy350 : CD2
+# Hy392 : CD3
+# CK265 : Ctrl1
+# CK278 : Ctrl2
+# CK282 : Ctrl3
+
 obj <- readRDS(file = "/Volumes/BUFFALOHDD/CITEseqAnalysis/20240611_referencemapping/CITE_rpca_annotation.rds")
 
 makeTCRdf <- function(tcrpath, clonopath, samplename){
