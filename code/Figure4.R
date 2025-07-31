@@ -12,7 +12,7 @@ library(UpSetR)
 library(harmony)
 set.seed(1234)
 
-#------------------------sample1
+#------------------------sample1 : CD12
 
 LP.umis1 <- Read10X(data.dir = "/Users/mitsuru/Documents/lab/20250115_blood_lymph_colon_CITE/20241220/outs/per_sample_outs/20241220/count/sample_filtered_feature_bc_matrix")
 
@@ -89,7 +89,7 @@ clono1 <- "/Users/mitsuru/Documents/lab/20250115_blood_lymph_colon_CITE/20241220
 
 scRep1 <- addTCR(scRep1, tcr_1, clono1)
 
-#------------------------sample2
+#------------------------sample2 : CD11
 
 LP.umis2 <- Read10X(data.dir = "/Users/mitsuru/Documents/lab/20250321_CITE/20250220/outs/per_sample_outs/20250220/count/sample_filtered_feature_bc_matrix")
 rownames(LP.umis2[["Antibody Capture"]])
@@ -140,7 +140,7 @@ clono2 <- "/Users/mitsuru/Documents/lab/20250321_CITE/20250220/outs/per_sample_o
 
 scRep2 <- addTCR(scRep2, tcr_2, clono2)
 
-#------------------------sample3
+#------------------------sample3 : CD10
 
 LP.umis3 <- Read10X(data.dir = "/Users/mitsuru/Documents/lab/20250422_CITE/20250328/outs/per_sample_outs/20250328/count/sample_filtered_feature_bc_matrix")
 rownames(LP.umis3[["Antibody Capture"]])[
