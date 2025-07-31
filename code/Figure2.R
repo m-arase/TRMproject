@@ -10,12 +10,12 @@ library(harmony)
 library(SingleCellExperiment)
 set.seed(1234)
 
-# CD24 : CD7
-# CD27 : CD8
-# Hy189 : CD9
-# Hy253 : CD10
-# Hy259 : CD11
-# Hy268 : CD12
+# CD24 : CD4
+# CD27 : CD5
+# Hy189 : CD6
+# Hy253 : CD7
+# Hy259 : CD8
+# Hy268 : CD9
 # CK206 : Ctrl4
 # CK221 : Ctrl5
 # CK228 : Ctrl6
