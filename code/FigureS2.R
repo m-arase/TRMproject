@@ -7,6 +7,13 @@ library(scales)
 library(ggraph)
 set.seed(1234)
 
+# CD31 : CD1
+# Hy350 : CD2
+# Hy392 : CD3
+# CK265 : Ctrl1
+# CK278 : Ctrl2
+# CK282 : Ctrl3
+
 # FigS2A
 obj2 <- readRDS(file = "/Volumes/BUFFALOHDD/CITEseqAnalysis/20240724_Figure/CITE20240731_repertoire.rds")
 new.cluster.ids <- c("TEM_1", "eTreg_1", "Tfh_1", "TRM_1", "naïve T", "TRM_2", 
