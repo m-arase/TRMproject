@@ -34,4 +34,6 @@ Colon CD4 T cell CITE-seq: GSE281504
 Colon CD4 T cell scMultiome: GSE280714  
 
 ## Citation
+Arase M, Murakami M, Kihara T, Kuwahara R, Toyota H, Sumitani N, Kinoshita N, Chen KY, Yokoi T, Motooka D, Okuzaki D, Zhao Y, Miyazaki H, Ogino T, Hirota S, Ikeuchi H, Takeda K. Multi-omics uncovers transcriptional programs of gut-resident memory CD4+ T cells in Crohn's disease. J Exp Med. 2025 Nov 3;222(11):e20242106.
+https://doi.org/10.1084/jem.20242106
 
