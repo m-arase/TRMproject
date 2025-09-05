@@ -20,18 +20,25 @@ The code was written in R and is compatible with the provided datasets.
   - FigureS3.R
   - FigureS4.R
     
--LISENCE  
+-LICENSE  
 -README.md  
 
 ## Data Availability
 Raw sequencing data: 
 Bulk RNA-seq RUNX2 BHLHE40 Knockdown: GSE300848  
+https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE300848  
 Bulk RNA-seq RUNX2 BHLHE40 Overexpression: GSE275362  
+https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE275362  
 Bulk RNA-seq HLA positive negative TRM: GSE300850  
+https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE300850  
 Colon, Lymphnode, Blood TCR (scRNA-seq): GSE301689  
+https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE301689  
 CD103+ CD4 T cells scRNA-seq: GSE281509  
+https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE281509  
 Colon CD4 T cell CITE-seq: GSE281504  
+https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE281504  
 Colon CD4 T cell scMultiome: GSE280714  
+https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE280714  
 
 ## Citation
 Arase M, Murakami M, Kihara T, Kuwahara R, Toyota H, Sumitani N, Kinoshita N, Chen KY, Yokoi T, Motooka D, Okuzaki D, Zhao Y, Miyazaki H, Ogino T, Hirota S, Ikeuchi H, Takeda K. Multi-omics uncovers transcriptional programs of gut-resident memory CD4+ T cells in Crohn's disease. J Exp Med. 2025 Nov 3;222(11):e20242106.
